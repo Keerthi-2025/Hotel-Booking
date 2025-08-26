@@ -15,6 +15,8 @@ export default function SignUp() {
 
         <input type= "password" placeholder='password'
         className='border-2 p-2 rounded-lg' id="password"/>
+
+        <button className='bg-slate-800 text-white p-3 rounded-lg uppercase hover:opacity-80'>Sign Up</button>
       </form>
     </div>
   )

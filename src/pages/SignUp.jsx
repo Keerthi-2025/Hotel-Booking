@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function SignUp() {
   return (
@@ -18,6 +19,15 @@ export default function SignUp() {
 
         <button className='bg-slate-800 text-white p-3 rounded-lg uppercase hover:opacity-80'>Sign Up</button>
       </form>
+
+      <div className='flex gap-2 mt-4'>
+        <p>
+          Have an account?
+          <Link to ={"/SignIn"}>
+          <span className='text-blue700'>Sign in</span>
+          </Link>
+        </p>
+      </div>
     </div>
   )
 }

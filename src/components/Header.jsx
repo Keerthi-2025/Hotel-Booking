@@ -29,7 +29,7 @@ export default function Header() {
             <li className=" text-black hover:underline">About</li>
              </Link>
 
-             <Link to ="/SignIn">
+             <Link to ="/signin">
             <li className=" text-black hover:underline">SignIn</li>
              </Link>
         </ul>

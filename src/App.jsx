@@ -16,7 +16,7 @@ export default function () {
     <Route path ="about" element = {<About/>} />
     <Route path = "/" element = {<Home/>}/>
     <Route path ="profile" element = {<Profile/>} />
-    <Route path = "sign-in" element = {<SignIn/>}/>
+    <Route path = "signin" element = {<SignIn/>}/>
     <Route path ="signup" element = {<SignUp/>} />
    
 

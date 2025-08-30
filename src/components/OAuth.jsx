@@ -1,11 +1,11 @@
-import React from 'react'
-
+import  {getAuth, GoogleAuthProvider} from '@firebase/auth';
 export default function OAuth() {
 
   const handleGoogleClick = async () =>{
     try{
-
-    }catch(error){
+      const provider = new GoogleAuthProvider();
+      const auth = getAuth();
+        }catch(error){
       console.log("Could not sign in with the Google",error);
     }
   }

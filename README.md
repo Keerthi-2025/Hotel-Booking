@@ -1,4 +1,4 @@
-🏡 **Stack Real Estate Web Application**
+🏡 **Full Stack Real Estate Web Application**
 
 A full-stack real estate application built using MongoDB, Express, React, and Node.js (MERN Stack).
 This project replicates features including authentication, CRUD operations, and advanced search functionality.

@@ -5,9 +5,9 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDqgRmZWAXXSejKF54ZDaAtYteT8GKEaYs",
+  apiKey: "YOUR_API_KEY",
   authDomain: "hotel-booking-884d1.firebaseapp.com",
-  projectId: "hotel-booking-884d1",
+  projectId: "YOUR_PROJECT_ID",
   storageBucket: "hotel-booking-884d1.firebasestorage.app",
   messagingSenderId: "178799629711",
   appId: "1:178799629711:web:cd3b7634a83df9d72127fa"
